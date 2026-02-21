@@ -4,8 +4,7 @@
 class Customer{
     public:
         Customer();
-        ~Customer();
-
+        
         float arrivalTime;
         float startOfServiceTime;
         float departureTime;

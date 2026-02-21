@@ -3,7 +3,3 @@
 Customer::Customer() {
     
 }
-
-Customer::~Customer() {
-    delete nextCustomer;
-}

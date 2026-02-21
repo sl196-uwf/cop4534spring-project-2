@@ -27,5 +27,12 @@ int main() {
                 "M: " << EM << "\n" <<
                 "Events to simulate: " << EVENTS2SIMULATE << std::endl;
 
+
+    QueueSim sim(LAMBDA, MU, EM);
+
+    for (int i = 0; i != 20; i++) {
+        std::cout << sim.getRandomInterval(MU) << std::endl;
+    }
+
     return 0;
 }
